@@ -1,0 +1,74 @@
+ /* body {
+            background-color: orange;
+        } */
+        /* .slider img{           
+            height: 50%;
+        } */ 
+        .brand-logo {
+            font-family:'Sura', serif;
+        }
+        .hide-on-med-and-down a {
+            font-family: 'Inria Sans', sans-serif;
+            font-size: 1.2em;
+            transition: background-color .5s;
+        }
+        .hide-on-med-and-down a:hover {
+            text-decoration: underline;
+            background-color: white;
+            color: black;
+        }
+        .hide-on-med-and-down a:hover, .hide-on-med-and-down a:active {
+            font-size: 1.3em;
+        }
+        #mobile-links {
+            background-color: transparent;
+            background: black;
+            width: 70%;
+            text-align: center;            
+        }
+        #mobile-links a {
+            display: block;
+            border-bottom: 1px solid #ffffff;
+            margin-top: 10px;
+        }
+        #mobile-links a {
+            color: #ffffff;
+            font-size: smaller;
+        }
+        .responsive-img {
+            margin: 50px 0px;
+        }
+        #author h4{
+            margin: 50px 0px 10px 0px;
+            font-family: 'Fresca', sans-serif;
+        }
+        #foot {
+            padding: 20px;
+        }
+        hr {
+            border: 1px thin;
+            opacity: 0.2;
+            margin: 20px 0px;
+        }
+        .icon a {
+            padding: 10px 5px;
+            color: #ffffff;
+        }
+        .slider h2 {
+            color: darkorange;
+            font-weight: 500;
+        }
+        .slider h5 {
+            font-size: x-large;
+        }
+        .sidenav i {
+            padding: 15px;
+        }
+
+        @media screen and (max-width: 670px) {
+            .slider h2 {
+            color: darkorange;
+            font-weight: normal;
+            font-size: xx-large;
+            }
+        }
